@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мобильный просмотр — Brooklyn Bowl</title>
+<style>
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; background:#15161a; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; color:#eee; min-height:100%; }
+  .wrap{ display:flex; gap:48px; padding:40px; justify-content:center; flex-wrap:wrap; align-items:flex-start; }
+  .col{ display:flex; flex-direction:column; align-items:center; gap:14px; }
+  .label{ font-size:14px; font-weight:600; letter-spacing:.04em; color:#b6b5b0; text-transform:uppercase; }
+  .phone{ width:390px; height:844px; border-radius:46px; background:#0B0B0C; padding:12px; box-shadow:0 0 0 11px #1f2025, 0 30px 70px rgba(0,0,0,.6); position:relative; }
+  .phone::before{ content:""; position:absolute; top:18px; left:50%; transform:translateX(-50%); width:118px; height:28px; background:#1f2025; border-radius:0 0 18px 18px; z-index:3; }
+  iframe{ width:100%; height:100%; border:0; border-radius:36px; background:#0B0B0C; display:block; }
+  .hint{ text-align:center; font-size:13px; color:#8a8a8a; padding:8px 40px 0; }
+</style>
+</head>
+<body>
+  <div class="hint">Живой мобильный рендер 390&times;844. Прокручивай внутри каждой «трубки».</div>
+  <div class="wrap">
+    <div class="col">
+      <div class="label">Главная</div>
+      <div class="phone"><iframe src="Brooklyn%20Bowl%20-%20%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D1%8B%D0%B9.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Боулинг</div>
+      <div class="phone"><iframe src="Brooklyn%20Bowl%20-%20%D0%91%D0%BE%D1%83%D0%BB%D0%B8%D0%BD%D0%B3.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Кухня</div>
+      <div class="phone"><iframe src="Brooklyn%20Bowl%20-%20%D0%9A%D1%83%D1%85%D0%BD%D1%8F.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Афиша</div>
+      <div class="phone"><iframe src="Brooklyn%20Bowl%20-%20%D0%90%D1%84%D0%B8%D1%88%D0%B0.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Просто поиграть</div>
+      <div class="phone"><iframe src="lane.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">С друзьями</div>
+      <div class="phone"><iframe src="friends.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Семьёй</div>
+      <div class="phone"><iframe src="family.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">День рождения</div>
+      <div class="phone"><iframe src="dr.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Детский ДР</div>
+      <div class="phone"><iframe src="dr-kids.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Корпоратив</div>
+      <div class="phone"><iframe src="corporate.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Выпускной</div>
+      <div class="phone"><iframe src="graduation.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">Карта гостя</div>
+      <div class="phone"><iframe src="loyalty.dc.html"></iframe></div>
+    </div>
+    <div class="col">
+      <div class="label">О нас</div>
+      <div class="phone"><iframe src="about.dc.html"></iframe></div>
+    </div>
+  </div>
+</body>
+</html>
